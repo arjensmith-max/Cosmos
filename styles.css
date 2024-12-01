@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #6a0dad;
+  color: yellow; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.container::before {
+  content: "Arjen"; 
+  font-size: 3rem; 
+  font-weight: bold;
+  color: yellow; 
+}
